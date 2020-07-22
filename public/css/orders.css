@@ -1,0 +1,266 @@
+.box-header{
+    margin:5px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+}
+
+.section-label{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #45557624;
+    font-size: 16px;
+    color: #455576ab;
+}
+
+.order-field-delete{
+    margin-left: -20px;
+    color: #dd4b39;
+    font-size: 25px;
+}
+
+.modal-header{
+    background-color: #ddd !important;
+}
+
+.modal-body{
+    padding: 30px;
+}
+
+.barcode-no-label{
+    font-size: 18px;
+    font-weight: 550;
+    color: #455576;
+}
+
+.scan-loader-div{
+    display: none;
+}
+
+.scan-loader-init{
+    display: block;
+}
+
+.scan-loader-div-form{
+    display:none;
+}
+.scan-modal{
+    position: relative;
+    top: auto;
+    width: 350px;
+    margin-top: 150px;
+}
+
+.scan-modal-title{
+    text-align: center;
+    color: #455576;
+    font-weight: 600;
+}
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #455576; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#scan_success{
+    display:none;
+    color: #455576;
+    text-align: center;
+    font-weight: 700;
+    background-color: #45557657;
+}
+
+#scan_fail{
+    display:none;
+    color: #a94442;
+    text-align: center;
+    font-weight: 700;
+    background-color: #a9444657;
+}
+
+.inventory-detail-no{
+    color: #f39c12 !important;
+}
+
+.fulfill-class-text-1{
+    font-size: 14px;
+    color: #455576;
+}
+
+.fulfill-class-text-2{
+    font-size: 18px;
+    color: #455576;
+    font-weight: 600;
+}
+
+#fulfill_form{
+    display: none;
+}
+
+#order_items_select{
+    display: none;
+}
+
+#fulfill_form_completed{
+    display: none
+}
+
+#order_fulfilled{
+    display: none;
+}
+
+.order-details{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.order-details-div{
+    padding-left: 50px;
+}
+
+.order-detail-table{
+    font-size: 16px;
+    border-bottom-style: groove;
+    padding: unset;
+    margin-top: 20px;
+}
+
+.order-notes{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.order-notes-div{
+    padding-left: 50px;
+}
+
+.order-notes-table{
+    font-size: 16px;
+    border-bottom-style: groove;
+    padding: unset;
+    margin-top: 20px;
+}
+
+.modal-lg{
+    width: 90% !important;
+    top: 5%;
+}
+
+.line-item-table-div{
+    padding: 20px;
+}
+
+.order-items-table-header{
+    background-color: white !important;
+    padding:0 !important;
+}
+
+.third-party-order-search{
+    display: inline-block;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -170px;
+    height: 32px;
+}
+
+.third-party-order-search-order-num, .third-party-order-search-ref-num, .third-party-order-search-ship-to{
+    height: 32px;
+}
+
+
+#filters input{
+    color:gray !important;
+}
+
+#edit_order_fieldset{
+    display: none;
+}
+
+.tpo-filter-field{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100% !important;
+}
+
+.tpo-filter-field-m{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 51% !important;
+}
+
+.tpo-dates{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#third_party_orders tr:hover{
+    background: #b1b1b1a1;
+    cursor: pointer;
+}
+
+.box-footer-actions{
+    text-align: center;
+    padding-right: 17px;
+    margin-bottom: 20px;
+}
+
+.box-footer-actions
+.so-btn{
+    min-width: 100px;
+}
+
+.box-footer-actions
+.pagenum{
+    width: 40px;
+    font-size: 17px;
+    vertical-align: sub;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #00000042;
+    display: inline-block;
+    height: 28px;
+    color: #455576;
+    background: #f3f3f3;
+}
+
+.depositor_select{
+    padding-left:20px;
+    margin-top: 10px;
+}
+
+.depositor_select>label{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 600;
+    padding-right: 14px;
+}
+
+.depositor_select>select{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.orders-head-title{
+    font-size: 22px !important;
+}
+
+
+#search_depositor_id{
+    font-size: 17px;
+    padding-bottom: 1px;
+}

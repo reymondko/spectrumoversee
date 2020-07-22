@@ -1,0 +1,21 @@
+.carrier-div{
+    display: inline-block;
+}
+
+.carrier-row{
+    padding:20px;
+    margin-top: 10px;
+}
+
+.select-carrier-div{
+    padding-bottom: 50px;
+}
+
+.cm{
+    display: none;
+}
+
+.carrier-delete{
+    font-size: 22px;
+    color: #dd4b39;
+}

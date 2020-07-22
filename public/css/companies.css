@@ -1,0 +1,57 @@
+.add-company-btn{
+    background: #455576;
+    color: white;
+    margin-top: 5px;
+}
+
+.add-company-btn:hover{
+    background: white;
+    color: #455576;
+    border-color: #455576;
+}
+
+.add-company-btn:focus{
+    background: white;
+    color: #455576;
+    border-color: #455576;
+}
+
+.close-btn{
+    background: #f39c12;
+    color: white;
+    margin-top: 5px;
+}
+
+.close-btn:hover{
+    background: white;
+    color: #f39c12;
+    margin-top: 5px;
+}
+
+.pass_error{
+    font-size: 12px;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+.alert-saved{
+    background-color: #455576 !important;
+    border-color: #455576 !important;
+}
+
+.alert-error{
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+
+.companies-box{
+    border-top:none !important;
+    padding-top: 15px;
+}
+
+#tpl_only_check{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 4px;
+}

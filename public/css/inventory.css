@@ -1,0 +1,197 @@
+.alert-saved{
+    background-color: #455576 !important;
+    border-color: #455576 !important;
+}
+
+.alert-error{
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+
+.import-btn-container{
+    text-align:center;
+}
+
+.import-box-header{
+    color: #fff !important;
+    background: #3b4864 !important;
+    background-color: #3b4864 !important;
+}
+
+.import-box{
+    border-color:#3b4864 !important;
+}
+
+.table_head_th{
+    text-align:center;
+    color:white;
+    background-color:#455576;
+}
+
+.table_td{
+    text-align:center;
+    font-weight:bold;
+}
+
+.modal-content-box{
+    width:300px;
+}
+
+.filter-box{
+    padding-bottom: 10px
+}
+
+.filter-div-delete{
+    margin-left: 10px;
+    color:#dd4b39;
+}
+
+.filter-div-delete-icn{
+    margin-top: 10px;
+}
+
+.filter-select{
+    width: 100% !important;
+}
+
+.filter-input{
+    width: 70% !important;
+}
+
+.scan-modal{
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%) !important;
+    width: 350px;
+}
+
+.scan-modal-title{
+    text-align: center;
+    color: #455576;
+    font-weight: 600;
+}
+
+.modal-header{
+    background-color: #ddd !important;
+}
+
+.modal-body{
+    padding: 30px;
+}
+
+.barcode-no-label{
+    font-size: 18px;
+    font-weight: 550;
+    color: #455576;
+}
+
+.scan-loader-div{
+    display: none;
+}
+
+.delete-loader-div{
+    display: none;
+}
+.updatestatus-loader-div{
+    display: none;
+}
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #455576; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#scan_success{
+    display:none;
+    color: #455576;
+    text-align: center;
+    font-weight: 700;
+    background-color: #45557657;
+}
+
+#scan_fail{
+    display:none;
+    color: #a94442;
+    text-align: center;
+    font-weight: 700;
+    background-color: #a9444657;
+}
+
+#update_status_success{
+    display:none;
+    color: #455576;
+    text-align: center;
+    font-weight: 700;
+    background-color: #45557657;
+}
+
+.inventory-detail-no{
+    color: #f39c12 !important;
+}
+
+.case-label-add-btn{
+    float: left;
+}
+
+.case-label-submit-btn{
+    float: right;
+}
+
+.import-caselabel-form-fields{
+    margin-bottom: 10px;
+}
+
+.custom-field-select-div{
+    display: flex;
+}
+
+.form-check-input{
+    width: 20px;
+    height: 20px;
+}
+
+.check-links{
+    margin-left: 5px;
+}
+
+#delete_selected{
+    display: none;
+    margin-left: 10px;
+}
+
+.scan-count-div{
+    text-align: center;
+    margin-top: 10px;
+    color: #455576;
+}
+
+.caselabel-label{
+    padding-top: 8px;
+    float: right;
+}
+
+.in-detail-row{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.in-detail-span{
+    font-weight: 500;
+}
+
+.section-label{
+    font-size: 16px;
+    border-bottom-style: groove;
+    padding: unset;
+    margin-top: 20px;
+}
+.inv-status-row{
+    text-transform: uppercase;
+}

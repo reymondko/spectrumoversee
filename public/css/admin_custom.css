@@ -1,0 +1,441 @@
+.sidebar-title-1{
+    display: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sidebar-title-2{
+    font-weight: bold;
+    color:#FF9800;
+    font-size: 16px;
+    display: none;
+}
+
+/** skin blue ADMIN LTE THEM OVERRIDES **/
+.skin-blue .main-header .logo{
+    /* background-color: #455576 !important; */
+    background: url(/assets/image/logo.png);
+    background-size: cover;
+    background-color: white !important;
+}
+
+.main-sidebar{
+    background-color: #3b4864 !important;
+}
+
+.skin-blue .sidebar-menu>li.header {
+    background: #3b4864;
+}
+
+.navbar-static-top{
+    display: none;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #455576;
+}
+
+.header-text{
+    color: #3b4864;
+    font-weight: 600;
+}
+
+/** button theme override **/
+.so-btn{
+    background: #455576;
+    color: white;
+    margin-top: 5px;
+}
+
+.so-btn:hover{
+    background: white;
+    color: #455576;
+    border-color: #455576;
+}
+
+
+.so-btn:focus{
+    background: white;
+    color: #455576;
+    border-color: #455576;
+}
+
+.so-btn-close{
+    background: #f39c12;
+    color: white;
+    margin-top: 5px;
+}
+
+.so-btn-close:hover{
+    background: white;
+    color: #f39c12;
+    border-color: #f39c12;
+}
+
+.so-btn-danger{
+    background: #dd4b39;
+    color: white;
+    margin-top: 5px;
+}
+
+.so-btn-danger:hover{
+    background: white;
+    color: #dd4b39;
+    border-color: #dd4b39;
+}
+
+
+.so-btn-close:focus{
+    background: white;
+    color: #f39c12;
+    border-color: #f39c12;
+}
+
+.action-list-a{
+    font-weight:bold !important;
+}
+
+.action-list-a:hover{
+    background-color:#f39c12 !important;
+}
+
+.center-element{
+    text-align: center;
+}
+
+.alert-saved{
+    background-color: #455576 !important;
+    border-color: #455576 !important;
+}
+
+.alert-error{
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+
+.search-bar{
+    float: right;
+    margin-top: -30px;
+    margin-right: 3px;
+    height: 32px;
+}
+
+.search-bar-btn{
+    float: right;
+    margin-top: -31px;
+}
+
+.clear-fix{
+    margin-top:20px;
+    clear:both;
+}
+
+.odd{
+    background-color: #eee !important;
+}
+
+.even{
+    background-color: #ccc !important;
+}
+
+.odd:hover{
+    background-color: #d2d6de !important;
+}
+
+.even:hover{
+    background-color: #d2d6de !important;
+}
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+            transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 0;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.notification-header{
+    color: #455576;
+    font-weight: 600;
+}
+
+.notification-loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #455576; /* Blue */
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    animation: spin .5s linear infinite;
+  }
+  .notification-loader-container{
+    margin-top: 50px;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .logged-div{
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    margin-bottom: 5px;
+  }
+
+  .logged-label{
+    color: #f39c12;
+    font-weight: 600;
+  }
+
+  .logged-email{
+    color: #d2d6de;
+  }
+
+  .logged-div:first-child{
+      display: block !important;
+  }
+
+  .content-header{
+    margin-top: -50px;
+    z-index: 9999;
+  }
+
+  .request-help{
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .request-help-loader{
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #455576;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    animation: spin .5s linear infinite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  .request-help-success{
+      font-size: 18px;
+      font-weight: 600;
+      color: #455576;
+      padding: 30px;
+      display: none;
+  }
+
+  .spectrumbox-primary{
+    border-color: #455576 !important;
+  }
+
+  .spectrumbox-primary-header{
+    border-color: #455576 !important;
+    background: #455576 !important;
+    background-color: #455576 !important;
+  }
+
+  #notificationModal{
+    z-index: 9999;
+  }
+
+  .required-input{
+    background-color: #f4433638;
+  }
+
+  .unrequired-input{
+    background-color: #77777726;
+  }
+
+  .sku-multi-cust{
+      display: none;
+  }
+
+  /** KPI Reports **/
+  .padding-default{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .default-color{
+      color:#3b4864
+  }
+
+  .default-color.box.box-solid.box-primary{
+    border: 1px solid #3b4864;
+  }
+
+  .default-color.box.box-solid.box-primary>.box-header{
+    background: #3b4864;
+    background-color: #3b4864;
+    padding-bottom: 15px;
+  }
+
+  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #3b4864;
+  }
+
+  .search-label{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .kpi-input input{
+      font-size: 16px;
+      font-weight: 600;
+  }
+
+  .kpi-input select{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .default-kpi-btn{
+    background: #455576;
+    color: white;
+  }
+
+  .default-kpi-btn:hover{
+    background: white;
+    color: #455576;
+    border-color: #455576;
+  }
+
+  .secondary-kpi-btn{
+    background: #ff9800;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .secondary-kpi-btn:hover{
+    background: white !important;
+    color: #ff9800 !important;
+    border-color: #ff9800 !important;
+  }
+
+  .kpi-input-margin{
+    margin-top: 5px;
+  }
+
+  #average_values{
+    margin-top: 20px;
+  }
+
+  .right-align-element{
+      text-align: right
+  }
+
+  .default-font{
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  .ignored-checkbox{
+    width: 20px;
+    height: 20px;
+    margin-top: 11px;
+    vertical-align: text-top;
+  }
+
+  #ignored_sku_checkboxes{
+      padding: 30px;
+  }
+
+  .ignored-checkbox-form-group{
+      margin-bottom: unset;
+      padding-bottom: 5px;
+      padding-top: 5px;
+  }
+
+  .ignored-checkbox-form-group odd{
+    background-color: gainsboro;
+  }
+
+  .ignored-checkbox-form-group even{
+      background-color: #eeeeee;
+  }
+
+  #ignored_sku_checkboxes label{
+    font-size: 20px;
+    padding-top: unset;
+  }
+
+  .ignored-sku-form-group{
+      text-align: center;
+      padding: 5px;
+  }
+
+  .ignored-sku-input{
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    font-weight: 700;
+  }
+
+  .ignored-sku-add-btn{
+      font-size: 19px;
+  }
+
+  .od-manual-ff-link{
+      float: right;
+      margin-right: 20px;
+  }
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

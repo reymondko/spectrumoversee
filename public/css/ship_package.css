@@ -1,0 +1,17 @@
+.center{
+    text-align: center;
+}
+
+.md-med-box{
+    width: 90%;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.table_head_th_act{
+    width: 100px;
+}
+
+.hidden{
+    /* display: none; */
+}

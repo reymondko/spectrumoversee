@@ -1,0 +1,69 @@
+.row.center{
+    text-align: center
+}
+
+.box.carriers-box-box.md-med-box{
+    width: 95%;
+    margin-left: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.carriers-select-div{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.carriers-select-lbl{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.carriers-select{
+    width: 250px;
+    font-size: 20px;
+}
+
+
+.carrier-th{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.carrier-table{
+    text-align: center;
+    margin-top: 30px !important;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+
+.so-btn-edt{
+    float: right;
+    margin-top: -2px;
+    margin-right: 2px;
+    width: 175px;
+}
+
+.btn-left-mgn{
+    margin-right: 161px;
+}
+
+.table-bordered>tbody>tr:hover{
+    background-color: #3b486429;
+}
+
+.float-left{
+    float: left;
+}
+
+.carriers-methods-tbl-div{
+    margin-top: 75px;
+}
+
+.carrier-actions{
+    margin-top:-10px !important;
+}

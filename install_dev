@@ -1,0 +1,10 @@
+composer install &&
+npm install &&
+php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=assets &&
+php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=config &&
+php artisan migrate &&
+php artisan db:seed --class=DatabaseSeeder &&
+php artisan db:seed --class=RolesTableSeeder &&
+php artisan key:generate &&
+npm install && 
+npm run dev

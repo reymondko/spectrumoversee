@@ -1,0 +1,82 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use App\Libraries\SecureWMS\SecureWMS;
+use App\Models\ApiTokens;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Client;
+use App\Models\Companies;
+
+class ApiProxyController extends Controller
+{
+
+
+    private static function AuthApiKey($key){
+        if($key){
+            $verify = ApiTokens::where('api_token',$key)->where('enabled',1)->first();
+            if($verify){
+                return $verify->companies_id;
+            }
+        }
+        return false;
+    }
+
+    public function createOrder(Request $request){
+              // WMS class
+      $wms = new SecureWMS();
+      $order = array(
+				'customerIdentifier' => array(
+					'id' => 25
+				),
+				'facilityIdentifier' => array(
+					'id' => 1
+				),
+				'referenceNum' => 'TESTORDER-MARK'.time(),
+				'warehouseTransactionSourceEnum' => 8,
+				'transactionEntryTypeEnum' => 4,
+				'routingInfo' => array(
+					'isCod' => null,
+					'isInsurance' => null,
+					'carrier' => null,
+					'mode' => null,
+					'account' => null,
+					'shipPointZip' => null,
+				),
+				'shipTo' => array (
+					'retailerId' => null,
+					'isQuickLookup' => true,
+					'companyName' => 'Mark Sly',
+					'name' => 'Mark Sly',
+					'address1' => '5795 Ridge Creek Circle',
+					'address2' => null,
+					'city' => 'Murray',
+					'state' => 'UT',
+					'zip' => '84107',
+					'country' => 'US',
+					'phoneNumber' => '8016740506',
+					'emailAddress' => 'mark@digiance.com',
+					'dept' => null,
+				),
+				'OrderItems' => array(array (
+					'readOnly' => array (
+						'fullyAllocated' => true,
+					),
+					'itemIdentifier' => array (
+						'sku' => 'SHOPIFY1',
+					),
+					'qty' => 1,
+				)),
+				'billing' => array(
+					'billingCharges' => [array(
+						'chargeType' => null,
+					)]
+				)
+			);
+      $response = $wms->sendOrderPostRequest('/orders', $order, 'POST');
+      print_r($response);
+      exit;
+    }
+}

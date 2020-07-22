@@ -1,0 +1,77 @@
+.table_head{
+    background: #455576;
+    color: white;
+}
+
+.table_head_th{
+    text-align: center;
+}
+
+.paginate-button{
+    color: #f39c12;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    text-align: center;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover{
+    border:none;
+}
+
+.pagination>a,
+.pagination>a:focus,
+.pagination>a:hover,
+.pagination>span,
+.pagination>span:focus,
+.pagination>span:hover{
+    border:none;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 3;
+    color: #f39c12;
+    cursor: default;
+    background-color: rgba(255,255,255,0.15);
+    border-color: #f39c12;
+}
+
+.pagination>li>a {
+    background: #ffffff26;
+    border-color: #ffffff26;
+}
+
+.action-button{
+    color: white;
+    background-color: #455576;
+    font-weight: bold;
+}
+
+.action-button:focus{
+    color: #455576;
+    background-color: white;
+}
+
+.action-button:active{
+    color: #455576;
+    background-color: white;
+}
+
+.action-button:hover{
+    color: white;
+    background-color: #455576;
+}
+
+.mw-160{
+    max-width: 160px;
+}

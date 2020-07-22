@@ -1,0 +1,134 @@
+.login-header{
+    font-weight: bolder;
+    font-family: arial;
+    text-align:center;
+    border-bottom: none !important;
+    padding: 20px
+}
+
+.login-title-1{
+    font-style: italic;
+    font-size: 28px;
+}
+
+.login-title-2{
+    color: #FF9800;
+    font-size: 28px;
+}
+
+.login-button{
+    background-color: #FF9800 !important;
+    border-radius:unset;
+    border-color: #FF9800 !important;
+}
+
+.login-checkbox{
+    padding-top: 6.5px;
+}
+
+body{
+    background: linear-gradient(
+        #3b4864db, 
+        #3b4864db
+      ), url(/assets/image/order-default-background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+    max-width: 100%;
+    
+}
+
+.login-form-container{
+    margin-top: 10%;
+}
+
+.login-bottom-text{
+    font-size: 14px;
+    color: #9E9E9E;
+}
+
+.login-bottom-text-div{
+    text-align: center;
+}
+
+.login-icon-text{
+    border-right: none;
+    border-radius: 0.25rem !important;
+    border-top-right-radius : 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.login-form{
+    border-left: none;
+    background-color: #e9ecef;
+}
+.login-form:focus{
+    border-left: none;
+    background-color: #e9ecef;
+}
+
+.company_label{
+    color: #566179;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.check-div{
+    text-align: center;
+    color: #FF9800;
+    font-size: 72px;
+}
+
+.order-number-div{
+    text-align: center;
+    color: #566179;
+    font-size: 21px;
+    font-weight: 800;
+    margin-top: -20px;
+}
+
+
+.order-number-div-2{
+    text-align: center;
+    color: #566179;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.login-header-saved{
+    background-color: #f7f7f7;
+}
+
+.previous-orders{
+    color: #566179;
+    cursor: pointer;
+    float: right;
+}
+
+.previous-orders:hover{
+    color: #FF9800 !important;
+}
+
+.modal-content{
+    border-radius:inherit;
+}
+
+.modal-title{
+    color: #566179;
+    font-weight: 500;
+}
+
+.modal-header{
+    background:#9e9e9e3d;
+}
+
+.panel-primary{
+    padding: 10px;
+    border: #566179;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: thin;
+}

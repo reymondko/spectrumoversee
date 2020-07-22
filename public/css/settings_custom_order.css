@@ -1,0 +1,51 @@
+.order-details{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.order-details-div{
+    padding-left: 50px;
+}
+
+.order-detail-table{
+    font-size: 16px;
+    border-bottom-style: groove;
+    padding: unset;
+    margin-top: 20px;
+}
+
+.line-item-table-div{
+    padding: 20px;
+}
+
+.order-items-table-header{
+    background-color: white !important;
+    padding:0 !important;
+}
+
+.box-header{
+    margin:5px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+}
+
+.section-label{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #45557624;
+    font-size: 16px;
+    color: #455576ab;
+}
+
+.modal-footer{
+    background-color: white;
+}
+
+.order-field-delete{
+    font-size: 22px;
+    color: #dd4b39;
+    margin-left: -20px;
+}
